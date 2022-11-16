@@ -1,0 +1,9 @@
+<div class="container">
+  <div class="item" *ngFor="let d of data" (click)="navigate(d)">
+    <div>
+      {{ d.id }}
+      <br />
+      {{ d.title }}
+    </div>
+  </div>
+</div>
